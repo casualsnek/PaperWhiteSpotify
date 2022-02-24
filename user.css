@@ -509,12 +509,14 @@ background-color: var(--spice-text);
 }
 
 #spicetify-playlist-list > div > div:nth-child(2) > li {
-    margin: 4px -2.5%;
-    width: 80%;
+    margin: 4px -8%;
+    width: 90%;
     flex-shrink: 0;
     box-sizing: border-box;
     position: relative;
+    border-radius: 20px;
     margin-bottom: -1px;
+    height: 100%;
     border: 2px solid var(--spice-text);
     display: flex;
     text-align: center;
@@ -527,11 +529,15 @@ background-color: var(--spice-text);
 
 #spicetify-playlist-list > div {
     contain: unset !important;
-    height: fit-content !important;
     padding-bottom: 10px;
+    height: fit-content !important;
     text-align: center;
 }
 
 .main-playbackBarRemainingTime-container {
   display:none !important;
+}
+
+.main-topBar-historyButtons > button {
+    background-color: var(--spice-main) !important;
 }
