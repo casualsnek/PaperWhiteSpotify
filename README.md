@@ -5,7 +5,7 @@
 ![White Screenshot](image-light.png)
 
 ### black
-![Black Screenshot](image-light.png)
+![Black Screenshot](image-black.png)
 
 ---
 
