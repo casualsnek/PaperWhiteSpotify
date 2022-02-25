@@ -11,7 +11,7 @@
 
 input {
     background-color: unset !important;
-    border-bottom: solid 1px var(--spice-text) !important;
+    border-bottom: solid 4px var(--spice-text) !important;
     border-radius: 0 !important;
     padding: 6px 10px 6px 48px;
     color: var(--spice-text) !important;
@@ -86,7 +86,7 @@ span.artist-artistVerifiedBadge-badge svg:nth-child(1) {
 
 @media (min-width: 1024px) {
     .main-trackList-trackListHeader {
-        border-bottom: solid 1px;
+        border-bottom: solid 4px;
         margin: 10px;
     }
 }
@@ -97,7 +97,7 @@ span.artist-artistVerifiedBadge-badge svg:nth-child(1) {
 }
 
 .main-trackList-trackListHeaderStuck .main-trackList-trackListHeaderRow {
-    border-bottom: 1px solid rgba(var(--spice-rgb-button-disabled), .8);
+    border-bottom: 4px solid rgba(var(--spice-rgb-button-disabled), .8);
 }
 
 
@@ -122,7 +122,7 @@ span.artist-artistVerifiedBadge-badge svg:nth-child(1) {
     position: absolute;
     left: 49.68%;
     top: 60%;
-    border: solid 1px;
+    border: solid 4px;
     border-radius: 20px;
     z-index: 5;
     color: var(--spice-subtext) !important;
@@ -149,7 +149,7 @@ span.artist-artistVerifiedBadge-badge svg:nth-child(1) {
 }
 
 .main-entityTitle-subtitle.main-entityTitle-small.main-entityTitle-uppercase.main-entityTitle-bold {
-    border: 2px var(--spice-text) solid;
+    border: 4px var(--spice-text) solid;
     border-radius: 4px;
     width: fit-content;
     display: inline;
@@ -186,11 +186,11 @@ span.artist-artistVerifiedBadge-badge svg:nth-child(1) {
 }
 
 .main-trackList-trackListHeaderRow {
-    border-bottom: 1px solid rgba(var(--spice-rgb-button-disabled), .8)
+    border-bottom: 4px solid rgba(var(--spice-rgb-button-disabled), .8)
 }
 
 .main-trackList-trackListHeaderStuck .main-trackList-trackListHeaderRow {
-    border-bottom: 1px solid rgba(var(--spice-rgb-button-disabled), .8);
+    border-bottom: 4px solid rgba(var(--spice-rgb-button-disabled), .8);
 }
 
 .main-trackList-trackListRow.main-trackList-selected, .main-trackList-trackListRow.main-trackList-selected:hover {
@@ -260,7 +260,7 @@ span.artist-artistVerifiedBadge-badge svg:nth-child(1) {
     opacity: 1 !important;
     background-color: var(--spice-sidebar)!important;
     height: 16px!important;
-    border: solid 2px var(--spice-subtext)!important;
+    border: solid 4px var(--spice-subtext)!important;
     width: 16px!important;
     display: unset !important;
 }
@@ -335,7 +335,7 @@ a.x-categoryCard-CategoryCard, a.x-heroCategoryCard-HeroCategoryCard {
 }
 
 .main-navBar-navBar {
-    border-right: 2px solid var(--spice-misc);
+    border-right: 4px solid var(--spice-misc);
 }
 
 .cMigZB * {
@@ -381,14 +381,14 @@ a.x-categoryCard-CategoryCard, a.x-heroCategoryCard-HeroCategoryCard {
 
 .view-homeShortcutsGrid-shortcut {
     background-color: rgba(var(--spice-rgb-selected-row), 0.6) !important;
-    border: solid 3px var(--spice-text);
+    border: solid 4px var(--spice-text);
     border-radius: 10px;
     padding-bottom: 80.7px;
     transition: 500ms;
 }
 
 .main-card-card .main-card-cardLink {
-    border: solid 3px;
+    border: solid 4px;
     transition: 500ms;
     border-radius: 27px;
 }
@@ -417,10 +417,10 @@ padding-top: 8px;
     .main-trackList-trackList {
         border-radius: 30px;
         background-color: var(--spice-player);
-        border: 1px solid;
+        border: 4px solid;
     }
     .main-buddyFeed-friendsFeedContainer {
-        border-left: solid 2px var(--spice-text);
+        border-left: solid 4px var(--spice-text);
     }
     .main-yourEpisodesButton-yourEpisodesIcon {
         background: var(--spice-text);
@@ -443,7 +443,7 @@ padding-top: 8px;
         box-shadow: none;
     }
     .main-buddyFeed-friendActivity {
-        border-bottom: solid 1px;
+        border-bottom: solid 4px;
     }
     .collection-collectionEntityHeroCard-likedSongs {
         background: linear-gradient(149.46deg, var(--spice-sidebar), var(--spice-main) 99.16%) !important;
@@ -517,7 +517,7 @@ background-color: var(--spice-text);
     border-radius: 20px;
     margin-bottom: -1px;
     height: 100%;
-    border: 2px solid var(--spice-text);
+    border: 4px solid var(--spice-text);
     display: flex;
     text-align: center;
     flex-direction: column;
